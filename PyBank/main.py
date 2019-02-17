@@ -37,13 +37,13 @@ print(f"Greatest Increase in Profits: {greatmonth} ({greatchange})")
 print(f"Greatest Decrease in Profits: {lowmonth} ({lowchange})")
 
 txtfile=open("FinAnalysis.txt", "w")
-txtfile.write("Financial Analysis")
-txtfile.write("-------------------")
-txtfile.write(f"Total Months: {total_months}")
-txtfile.write(f"Total: ${sum(profits)}")
-txtfile.write(f"Average Change: ${averagechange}")
-txtfile.write(f"Greatest Increase in Profits: {greatmonth} ({greatchange})")
-txtfile.write(f"Greatest Decrease in Profits: {lowmonth} ({lowchange})")
+txtfile.write(f"Financial Analysis\n")
+txtfile.write("-------------------\n")
+txtfile.write(f"Total Months: {total_months}\n")
+txtfile.write(f"Total: ${sum(profits)}\n")
+txtfile.write(f"Average Change: ${averagechange}\n")
+txtfile.write(f"Greatest Increase in Profits: {greatmonth} ({greatchange})\n")
+txtfile.write(f"Greatest Decrease in Profits: {lowmonth} ({lowchange})\n")
 
   #Financial Analysis
   #----------------------------
